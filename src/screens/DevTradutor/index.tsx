@@ -15,7 +15,7 @@ const languages: Language[] = [
 export const DevTradutor = () => {
   const [sourceLang, setSourceLang] = useState<LanguageCode>('pt')
   const [targetLang, setTargetLang] = useState<LanguageCode>('en')
-  const [sourceText, setSourceText] = useState<string>('')
+  const [sourceText, setSourceText] = useState<string>('Olá, como você está?')
   const [translatedText, setTranslatedText] = useState<string>('')
   const [error, setError] = useState<string | null>(null)
   const [isLoading, setIsLoading] = useState<boolean>(false)
